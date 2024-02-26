@@ -45,7 +45,6 @@ public class Main {
 
         printEightFirst(bookingList);
 
-
         bookingManager.getAverageGuests(bookingList, otherGuests, guestList);
 
         System.out.println("-----------------------------------------------");

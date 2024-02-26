@@ -11,7 +11,6 @@ public class BookingManager {
         bookingList.add(booking);
     }
 
-
     public Booking getBooking(int index) {
         return bookingList.get(index);
     }
