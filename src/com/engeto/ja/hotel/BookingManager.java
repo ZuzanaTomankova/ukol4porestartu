@@ -24,6 +24,10 @@ public class BookingManager {
         bookingList.clear();
     }
 
-
-
+    public double getAverageGuests(List<Booking> bookingList, List<Guest> otherGuests, List<Guest> guestList) {
+        double averageGuest = guestList.size()/(double) (bookingList.size() +
+                otherGuests.size()) ;
+        System.out.println("Průměrný počet hostů na jednu rezervaci:"+averageGuest);
+        return averageGuest;
+    }
 }
